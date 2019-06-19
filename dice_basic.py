@@ -1,6 +1,9 @@
-print("Welcome to DICE ROLL.")            # Prints message: "Welcome to DICE ROLL."
-x = input("Press ENTER to roll.)          # Asks for a keyboard input (ENTER).
-if x in("")                               # If the keyboard input is ENTER...
-  print(random.randrange(1,6))            # A random number from the range of 1–6 will be printed.
-else                                      # If the keyboard input it not ENTER
-  print("Invalid Response)                # The message: "Invalid Response" is printed.
+print("Dice Roll")
+
+x = input("Press Enter to roll"          
+
+if x in("")                               
+  print(random.randrange(1,6))     
+          
+else                                      
+  print("Invalid Response)               
